@@ -1,0 +1,31 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+}
+
+.container{
+    width: 500px;
+    height: 500px;
+    background-color: brown;
+    border-radius: 30px;
+
+}
+.box{
+    height: 100px;
+    background-color: darkcyan;
+    width: 100px;
+    transition: 1s;
+    text-align: center;
+    
+}
+.container:hover .box{
+    transform: rotate(45deg) translate(200px);
+}
